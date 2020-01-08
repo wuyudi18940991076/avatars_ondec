@@ -1,0 +1,1689 @@
+@charset "UTF-8";
+/*----------------------------------------
+ 1. リセットcssを指定
+----------------------------------------*/
+/*----------------------------------------
+ RESET for NHN 
+----------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/_core\/reset\/_nhn\.scss}line{font-family:\0000321}}
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, main, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background-color: transparent;
+  font-style: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/_core\/reset\/_nhn\.scss}line{font-family:\0000342}}
+main, article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/_core\/reset\/_nhn\.scss}line{font-family:\0000347}}
+body {
+  position: relative;
+  -webkit-text-size-adjust: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/_core\/reset\/_nhn\.scss}line{font-family:\0000352}}
+ul, ol, li {
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/_core\/reset\/_nhn\.scss}line{font-family:\0000356}}
+a:focus {
+  outline: thin dotted;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/_core\/reset\/_nhn\.scss}line{font-family:\0000360}}
+img {
+  vertical-align: bottom;
+  line-height: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/_core\/reset\/_nhn\.scss}line{font-family:\0000365}}
+label {
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/_core\/reset\/_nhn\.scss}line{font-family:\0000369}}
+del {
+  text-decoration: line-through;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/_core\/reset\/_nhn\.scss}line{font-family:\0000373}}
+blockquote, q {
+  quotes: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/_core\/reset\/_nhn\.scss}line{font-family:\0000377}}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/_core\/reset\/_nhn\.scss}line{font-family:\0000383}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*----------------------------------------
+ 2. Style設定
+----------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/_core\/reset\/_setting\.scss}line{font-family:\0000345}}
+body {
+  color: #666;
+  font-size: 12px;
+  font-family: "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+  line-height: 1.333;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/_core\/reset\/_setting\.scss}line{font-family:\0000352}}
+a:link {
+  color: #676767;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/_core\/reset\/_setting\.scss}line{font-family:\0000353}}
+a:visited {
+  color: #676767;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/_core\/reset\/_setting\.scss}line{font-family:\0000354}}
+a:hover {
+  color: #676767;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/_core\/reset\/_setting\.scss}line{font-family:\0000355}}
+a:active {
+  color: #676767;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/_core\/reset\/_setting\.scss}line{font-family:\0000358}}
+html {
+  overflow-y: scroll;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/_core\/reset\/_setting\.scss}line{font-family:\0000362}}
+a {
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/_core\/reset\/_setting\.scss}line{font-family:\0000368}}
+a:hover, a:active {
+  text-decoration: underline;
+  outline: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/_core\/reset\/_setting\.scss}line{font-family:\00003141}}
+em {
+  font-style: normal;
+}
+
+/*----------------------------------------
+ 3-1. clearfixクラスを出力
+----------------------------------------*/
+/*----------------------------------------
+ 3-2. margin／padding スペースクラスを出力
+----------------------------------------*/
+/*----------------------------------------
+ 3-3. サイト制作支援用 シングルプロパティを出力
+----------------------------------------*/
+/* 共通サンプル */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\0000348}}
+a:focus,
+*:focus {
+  outline: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\0000353}}
+.contentsArea,
+main,
+.sec02,
+.sec03,
+.sec04 {
+  font-size: 0;
+  color: transparent;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\0000362}}
+ul::after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\0000369}}
+.contentsArea {
+  min-width: 960px;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\0000375}}
+.contentsArea .logo {
+  width: 960px;
+  margin: auto;
+  height: 91px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\0000381}}
+.contentsArea .logo h1 {
+  width: 313px;
+  height: 74px;
+  margin: 18px auto;
+  text-align: center;
+  background: url('../img/h1_avalon.png?1573614198') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\0000389}}
+.contentsArea .logo a {
+  display: block;
+  position: absolute;
+  top: -7px;
+  right: 60px;
+  width: 226px;
+  height: 98px;
+  background: url('../img/commented_by.png?1573614198') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003101}}
+.contentsArea nav .nav_body {
+  position: relative;
+  width: 100%;
+  height: 64px;
+  margin: 0 auto;
+  background: #fff;
+  border-bottom: 4px solid #753824;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003111}}
+.contentsArea nav .nav_body li {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 60px;
+  font-size: 0;
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003122}}
+.contentsArea nav .nav_body .nav_left {
+  width: 997px;
+  margin-left: -997px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003126}}
+.contentsArea nav .nav_body .nav_left a {
+  display: block;
+  background-image: url('../img/spr-s5318b651cf.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 997px;
+  height: 60px;
+  background-position: 0 -1211px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003136}}
+.contentsArea nav .nav_body .nav_right {
+  width: 997px;
+  margin-left: 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003140}}
+.contentsArea nav .nav_body .nav_right a {
+  display: block;
+  background-image: url('../img/spr-s5318b651cf.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 997px;
+  height: 60px;
+  background-position: 0 -1391px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003144}}
+.contentsArea nav .nav_body .nav_right a:hover {
+  background-image: url('../img/spr-s5318b651cf.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 997px;
+  height: 60px;
+  background-position: 0 -1331px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003151}}
+.contentsArea nav #nav_menu {
+  position: absolute;
+  top: 400px;
+  right: 37px;
+  width: 104px;
+  z-index: 9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003159}}
+.contentsArea nav #nav_menu li {
+  position: relative;
+  width: 104px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  text-align: center;
+  box-sizing: border-box;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003169}}
+.contentsArea nav #nav_menu .menu_one a {
+  display: block;
+  width: 104px;
+  height: 105px;
+  background-image: url('../img/spr-s5318b651cf.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 104px;
+  height: 105px;
+  background-position: 0 -516px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003178}}
+.contentsArea nav #nav_menu .menu_two a {
+  display: block;
+  width: 104px;
+  height: 105px;
+  background-image: url('../img/spr-s5318b651cf.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 104px;
+  height: 105px;
+  background-position: 0 -621px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003187}}
+.contentsArea nav #nav_menu .menu_three a {
+  display: block;
+  width: 104px;
+  height: 105px;
+  background-image: url('../img/spr-s5318b651cf.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 104px;
+  height: 104px;
+  background-position: 0 -726px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003196}}
+.contentsArea nav #nav_menu .menu_four a {
+  display: block;
+  width: 104px;
+  height: 105px;
+  background-image: url('../img/spr-s5318b651cf.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 104px;
+  height: 104px;
+  background-position: 0 -830px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003205}}
+.contentsArea nav #nav_menu .menu_five a {
+  display: block;
+  width: 104px;
+  height: 105px;
+  background-image: url('../img/spr-s5318b651cf.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 104px;
+  height: 105px;
+  background-position: 0 -934px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003214}}
+.contentsArea nav #nav_menu .menu_six a {
+  display: block;
+  width: 104px;
+  height: 105px;
+  background-image: url('../img/spr-s5318b651cf.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 104px;
+  height: 105px;
+  background-position: 0 -1039px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003223}}
+.contentsArea nav #nav_menu .menu_top a {
+  display: block;
+  margin: 10px auto 0;
+  width: 58px;
+  height: 67px;
+  background-image: url('../img/spr-s5318b651cf.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 58px;
+  height: 67px;
+  background-position: 0 -1144px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003234}}
+.contentsArea .belt_date {
+  position: relative;
+  width: 100%;
+  height: 54px;
+  background: #000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003240}}
+.contentsArea .belt_date div {
+  margin: 0 auto;
+  width: 960px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003244}}
+.contentsArea .belt_date div .subject_date {
+  display: inline-block;
+  vertical-align: bottom;
+  background: url('../img/subject_date.png?1573627362') no-repeat center top;
+  width: 185px;
+  height: 34px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003252}}
+.contentsArea .belt_date div .belt_one {
+  display: inline-block;
+  vertical-align: bottom;
+  margin: 8px 0px 0px 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003257}}
+.contentsArea .belt_date div .belt_one img {
+  width: 768px;
+  height: 38px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003266}}
+main {
+  width: 100%;
+  min-width: 960px;
+  background: url('../img/bg_big1.jpg?1573632099') no-repeat center top, url('../img/bg_big2.jpg?1573632099') no-repeat center 722px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003272}}
+main h1 {
+  width: 1071px;
+  height: 444px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003278}}
+main .confirmed_three {
+  height: 370px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003282}}
+main .confirmed_four {
+  height: 310px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003286}}
+main .twist_eggs {
+  margin: 0px auto;
+  width: 822px;
+  height: 491px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003292}}
+main .twist_eggs .twist {
+  width: 321px;
+  height: 459px;
+  margin: 0px auto;
+  position: relative;
+}
+@-webkit-keyframes zy {
+  10% {
+    transform: rotate(15deg);
+  }
+  20% {
+    transform: rotate(-10deg);
+  }
+  30% {
+    transform: rotate(5deg);
+  }
+  40% {
+    transform: rotate(-5deg);
+  }
+  50%,
+        100% {
+    transform: rotate(0deg);
+  }
+}
+@-moz-keyframes zy {
+  10% {
+    transform: rotate(15deg);
+  }
+  20% {
+    transform: rotate(-10deg);
+  }
+  30% {
+    transform: rotate(5deg);
+  }
+  40% {
+    transform: rotate(-5deg);
+  }
+  50%,
+        100% {
+    transform: rotate(0deg);
+  }
+}
+@-o-keyframes zy {
+  10% {
+    transform: rotate(15deg);
+  }
+  20% {
+    transform: rotate(-10deg);
+  }
+  30% {
+    transform: rotate(5deg);
+  }
+  40% {
+    transform: rotate(-5deg);
+  }
+  50%,
+        100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes zy {
+  10% {
+    transform: rotate(10deg);
+  }
+  20% {
+    transform: rotate(-5deg);
+  }
+  30% {
+    transform: rotate(5deg);
+  }
+  40% {
+    transform: rotate(-5deg);
+  }
+  50%,
+        100% {
+    transform: rotate(0deg);
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003390}}
+main .twist_eggs .twist .twist_img {
+  width: 322px;
+  height: 352px;
+  background: none;
+  padding-top: 78px;
+  animation: zy 2.5s .15s linear infinite;
+  -moz-animation: zy 2.5s .15s linear infinite;
+  -webkit-animation: zy 2.5s .15s linear infinite;
+  -o-animation: zy 2.5s .15s linear infinite;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003401}}
+main .twist_eggs .twist p {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 186px;
+  height: 61px;
+  margin-left: -93px;
+  background: url('../img/more_yen.png?1573779528') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003412}}
+main .twist_eggs .child {
+  width: 800px;
+  height: 450px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003416}}
+main .twist_eggs .child li {
+  position: absolute;
+  width: 198px;
+  height: 450px;
+  top: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003423}}
+main .twist_eggs .child .left {
+  left: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003427}}
+main .twist_eggs .child .right {
+  right: -30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003432}}
+main .twist_eggs span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -65px;
+  background: url('../img/video.png?1573694378') no-repeat center top;
+  width: 130px;
+  height: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003442}}
+main .twist_eggs .out_order {
+  position: absolute;
+  top: 184px;
+  left: 50%;
+  margin-left: -59px;
+  background: url('../img/out_order.png?1573786036') no-repeat center top;
+  width: 118px;
+  height: 60px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003452}}
+main .twist_eggs a {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  margin-left: -72px;
+  width: 144px;
+  height: 25px;
+  display: block;
+  background-image: url('../img/spr-s5318b651cf.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 144px;
+  height: 26px;
+  background-position: 0 -414px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003462}}
+main .twist_eggs a:hover {
+  background-image: url('../img/spr-s5318b651cf.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 144px;
+  height: 26px;
+  background-position: 0 -440px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003468}}
+main .first_shell {
+  margin: 37px auto 0px;
+  position: relative;
+  width: 1035px;
+  height: 688px;
+  background: url('../img/first_shell.png?1573700757') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003475}}
+main .first_shell .shell_top {
+  padding-top: 166px;
+  margin: 0px auto 0px;
+  width: 396px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003480}}
+main .first_shell .shell_top li {
+  width: 112px;
+  float: left;
+  margin-right: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003485}}
+main .first_shell .shell_top li img {
+  width: 112px;
+  height: 132px;
+  background: url('../img/replaceable_bg.png?1573808190') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003491}}
+main .first_shell .shell_top li p {
+  padding-top: 9px;
+  color: #813c1c;
+  font-size: 11px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  height: 38px;
+  width: 112px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003503}}
+main .first_shell .shell_top li:nth-child(3) {
+  margin-right: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003508}}
+main .first_shell .look_content {
+  position: absolute;
+  bottom: 104px;
+  left: 347px;
+  width: 79px;
+  height: 26px;
+  background-image: url('../img/spr-s5318b651cf.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 79px;
+  height: 26px;
+  background-position: 0 -388px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003517}}
+main .first_shell .buy_times {
+  padding-top: 138px;
+  margin-left: 485px;
+  width: 478px;
+  height: 175px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003523}}
+main .first_shell .buy_times li {
+  float: left;
+  width: 235px;
+  height: 132px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003528}}
+main .first_shell .buy_times li img {
+  display: inline-block;
+  vertical-align: top;
+  width: 112px;
+  height: 132px;
+  background: url('../img/replaceable_bg.png?1573808190') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003536}}
+main .first_shell .buy_times li p {
+  display: inline-block;
+  vertical-align: top;
+  padding: 42px 0px 0px 10px;
+  width: 112px;
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003543}}
+main .first_shell .buy_times li p span {
+  display: inline-block;
+  height: 26px;
+  color: #fff;
+  font-size: 11px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003550}}
+main .first_shell .buy_times li p a {
+  display: inline-block;
+  margin-top: 20px;
+  width: 103px;
+  height: 26px;
+  background-image: url('../img/spr-s5318b651cf.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 103px;
+  height: 26px;
+  background-position: 0 -1451px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003557}}
+main .first_shell .buy_times li p a:hover {
+  background-image: url('../img/spr-s5318b651cf.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 103px;
+  height: 26px;
+  background-position: 0 -1477px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003564}}
+main .first_shell .buy_times li:nth-child(2) {
+  margin-left: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003568}}
+main .first_shell .buy_times p {
+  color: #fff;
+  margin-top: 16px;
+  font-size: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003577}}
+main .first_shell2 {
+  background: url('../img/first_shell_two.png?1574408267') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003581}}
+main .here_pin {
+  margin: 61px auto 0px;
+  position: relative;
+  width: 1092px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003586}}
+main .here_pin h2 {
+  margin: 0 auto;
+  width: 275px;
+  height: 37px;
+  background: url('../img/here_pin.png?1573786312') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003593}}
+main .here_pin .item_parameter {
+  position: absolute;
+  top: -25px;
+  left: 134px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003598}}
+main .here_pin .item_parameter img {
+  width: 256px;
+  height: 86px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003604}}
+main .here_pin .here_pin_body {
+  margin-top: 25px;
+  width: 1092px;
+  height: 454px;
+  background: url('../img/here_pin_body.png?1573786312') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003611}}
+main .here_pin .here_pin_body ul li {
+  float: left;
+  width: 202px;
+  height: 364px;
+  margin-left: 72px;
+  position: relative;
+}
+@-webkit-keyframes eggs {
+  10% {
+    transform: rotate(15deg);
+  }
+  20% {
+    transform: rotate(-10deg);
+  }
+  30% {
+    transform: rotate(5deg);
+  }
+  40% {
+    transform: rotate(-5deg);
+  }
+  50%,
+            100% {
+    transform: rotate(0deg);
+  }
+}
+@-moz-keyframes eggs {
+  10% {
+    transform: rotate(15deg);
+  }
+  20% {
+    transform: rotate(-10deg);
+  }
+  30% {
+    transform: rotate(5deg);
+  }
+  40% {
+    transform: rotate(-5deg);
+  }
+  50%,
+            100% {
+    transform: rotate(0deg);
+  }
+}
+@-o-keyframes eggs {
+  10% {
+    transform: rotate(15deg);
+  }
+  20% {
+    transform: rotate(-10deg);
+  }
+  30% {
+    transform: rotate(5deg);
+  }
+  40% {
+    transform: rotate(-5deg);
+  }
+  50%,
+            100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes eggs {
+  10% {
+    transform: rotate(10deg);
+  }
+  20% {
+    transform: rotate(-5deg);
+  }
+  30% {
+    transform: rotate(5deg);
+  }
+  40% {
+    transform: rotate(-5deg);
+  }
+  50%,
+            100% {
+    transform: rotate(0deg);
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003710}}
+main .here_pin .here_pin_body ul li .eggs {
+  width: 201px;
+  height: 241px;
+  background: none;
+  padding-top: 28px;
+  animation: eggs 2.5s .15s linear infinite;
+  -moz-animation: eggs 2.5s .15s linear infinite;
+  -webkit-animation: eggs 2.5s .15s linear infinite;
+  -o-animation: eggs 2.5s .15s linear infinite;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003721}}
+main .here_pin .here_pin_body ul li span {
+  position: absolute;
+  top: 86px;
+  left: 50%;
+  margin-left: -40px;
+  width: 80px;
+  height: 52px;
+  background: url('../img/out_order_s.png?1573786145') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003731}}
+main .here_pin .here_pin_body ul li a {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  margin-left: -72px;
+  width: 144px;
+  height: 26px;
+  display: block;
+  background-image: url('../img/spr-s5318b651cf.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 144px;
+  height: 26px;
+  background-position: 0 -414px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003741}}
+main .here_pin .here_pin_body ul li a:hover {
+  background-image: url('../img/spr-s5318b651cf.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 144px;
+  height: 26px;
+  background-position: 0 -440px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003747}}
+main .here_pin .here_pin_body ul li:nth-child(1) {
+  margin-left: 170px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003755}}
+main .sec02 {
+  width: 100%;
+  height: 1280px;
+  background: #c9ecc6;
+  padding-top: 51px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003761}}
+main .sec02 .sec02_h2 {
+  margin: 0px auto;
+  width: 245px;
+  height: 37px;
+  background: url('../img/one_point.png?1573798901') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003768}}
+main .sec02 .preferential_content {
+  margin: 16px auto 0px;
+  width: 393px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003772}}
+main .sec02 .preferential_content span {
+  width: 351px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: bottom;
+  background: url('../img/preferential_content.png?1573798901') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003780}}
+main .sec02 .preferential_content a {
+  width: 42px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: bottom;
+  background: url('../img/preferential_a.png?1573798901') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003789}}
+main .sec02 .explain {
+  margin: 17px auto 0px;
+  width: 669px;
+  height: 112px;
+  background: url('../img/explain.png?1573798901') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003795}}
+main .sec02 .explain p {
+  padding: 66px 98px 27px 61px;
+  font-weight: 600;
+  font-size: 13px;
+  color: #000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003801}}
+main .sec02 .explain p .challenge {
+  display: inline-block;
+  vertical-align: middle;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003806}}
+main .sec02 .explain p strong {
+  margin-left: 46px;
+  font-size: 24px;
+  color: #df1010;
+  display: inline-block;
+  vertical-align: middle;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003814}}
+main .sec02 .explain p .key_point {
+  margin-left: 5px;
+  font-size: 17px;
+  display: inline-block;
+  vertical-align: middle;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003823}}
+main .sec02 .first_point {
+  margin: 30px auto 0px;
+  position: relative;
+  width: 960px;
+  height: 625px;
+  background: url('../img/first_point_bg.png?1573805693') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003830}}
+main .sec02 .first_point h2 {
+  padding-top: 30px;
+  margin: 0px auto 0px;
+  width: 336px;
+  height: 36px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003837}}
+main .sec02 .first_point .btn_details {
+  position: absolute;
+  top: 0;
+  right: 140px;
+  width: 86px;
+  height: 69px;
+  display: block;
+  background-image: url('../img/spr-s5318b651cf.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 86px;
+  height: 69px;
+  background-position: 0 -78px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003847}}
+main .sec02 .first_point .replaceable_bg {
+  padding: 316px 0px 0px 30px;
+  width: 620px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003851}}
+main .sec02 .first_point .replaceable_bg li {
+  float: left;
+  margin-right: 12px;
+  height: 166px;
+  width: 112px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003857}}
+main .sec02 .first_point .replaceable_bg li p {
+  padding-top: 8px;
+  width: 112px;
+  height: 32px;
+  color: #4e4e4e;
+  font-size: 11px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003870}}
+main .sec02 .first_point .selection_btn {
+  position: absolute;
+  bottom: 31px;
+  left: 32%;
+  width: 70px;
+  height: 25px;
+  display: block;
+  background-image: url('../img/spr-s5318b651cf.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 70px;
+  height: 25px;
+  background-position: 0 -1578px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003880}}
+main .sec02 .first_point .change_content {
+  position: absolute;
+  left: 668px;
+  top: 447px;
+  width: 270px;
+  color: #000;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003888}}
+main .sec02 .first_point .change_content .be_careful {
+  color: #df1010;
+  font-size: 13px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003894}}
+main .sec02 .first_point .change_content .exchange_notes {
+  margin-top: 14px;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003898}}
+main .sec02 .first_point .change_content .exchange_notes a {
+  margin: 0px auto;
+  width: 250px;
+  height: 50px;
+  display: block;
+  background-image: url('../img/spr-s5318b651cf.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 250px;
+  height: 50px;
+  background-position: 0 -147px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003905}}
+main .sec02 .first_point .change_content .exchange_notes a:hover {
+  background-image: url('../img/spr-s5318b651cf.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 250px;
+  height: 50px;
+  background-position: 0 -197px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003911}}
+main .sec02 .first_point .change_content .note_matters {
+  margin-top: 9px;
+  color: #000;
+  font-size: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003916}}
+main .sec02 .first_point .change_content .note_matters a {
+  text-decoration: underline;
+  color: #000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003924}}
+main .sec02 .exchange_one_point {
+  margin: 30px auto 0px;
+  width: 900px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003928}}
+main .sec02 .exchange_one_point .eop_main {
+  position: relative;
+  width: 900px;
+  height: 266px;
+  background: url('../img/privilege_point.png?1574298997') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003935}}
+main .sec02 .exchange_one_point .eop_main .look_video a {
+  position: absolute;
+  bottom: 35px;
+  left: 8px;
+  width: 144px;
+  height: 25px;
+  display: block;
+  background-image: url('../img/spr-s5318b651cf.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 144px;
+  height: 26px;
+  background-position: 0 -414px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003944}}
+main .sec02 .exchange_one_point .eop_main .look_video a:hover {
+  background-image: url('../img/spr-s5318b651cf.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 144px;
+  height: 26px;
+  background-position: 0 -440px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003951}}
+main .sec02 .exchange_one_point .eop_main .at_one_point a {
+  position: absolute;
+  bottom: 35px;
+  left: 175px;
+  width: 224px;
+  height: 39px;
+  display: block;
+  background-image: url('../img/spr-s5318b651cf.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 224px;
+  height: 39px;
+  background-position: 0 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003960}}
+main .sec02 .exchange_one_point .eop_main .at_one_point a:hover {
+  background-image: url('../img/spr-s5318b651cf.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 224px;
+  height: 39px;
+  background-position: 0 -39px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003966}}
+main .sec02 .exchange_one_point .eop_main .free_ticket {
+  margin: 0px 0 0 439px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003969}}
+main .sec02 .exchange_one_point .eop_main .free_ticket li {
+  margin: 132px 0 0 10px;
+  float: left;
+  width: 102px;
+  height: 98px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003975}}
+main .sec02 .exchange_one_point .eop_main .free_ticket li img {
+  width: 84px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003980}}
+main .sec02 .exchange_one_point .eop_main .free_ticket li a {
+  margin: 8px auto 0;
+  width: 102px;
+  height: 25px;
+  display: block;
+  background-image: url('../img/spr-s5318b651cf.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 102px;
+  height: 25px;
+  background-position: 0 -1503px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003987}}
+main .sec02 .exchange_one_point .eop_main .free_ticket li a:hover {
+  background-image: url('../img/spr-s5318b651cf.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 102px;
+  height: 25px;
+  background-position: 0 -1553px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003993}}
+main .sec02 .exchange_one_point .eop_main .free_ticket li:first-child {
+  margin-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\00003999}}
+main .sec02 .exchange_one_point .eop_text {
+  width: 960px;
+  padding: 20px 0 0 5px;
+  color: #000;
+  font-size: 12px;
+  line-height: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031006}}
+main .sec02 .exchange_one_point .eop_text li {
+  display: inline-block;
+  vertical-align: top;
+  width: 430px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031012}}
+main .sec02 .exchange_one_point .eop_text li:nth-child(even) {
+  width: 480px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031019}}
+main .sec03 {
+  background-color: #ffd3d4;
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031025}}
+main .sec03 .sec03_main {
+  width: 971px;
+  height: 416px;
+  margin: 0 auto;
+  padding-top: 45px;
+  background: url('../img/purchase_preferences.png?1574314986') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031032}}
+main .sec03 .sec03_main h2 {
+  width: 449px;
+  height: 39px;
+  margin: 0 auto;
+  background: url('../img/purchase_awards.png?1574319190') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031039}}
+main .sec03 .sec03_main .ten_thousand_yen {
+  position: absolute;
+  top: 91px;
+  left: 50%;
+  width: 441px;
+  padding-right: 30px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031050}}
+main .sec03 .sec03_main .ten_thousand_yen strong {
+  padding-right: 2px;
+  font-size: 23px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031056}}
+main .sec03 .sec03_main .object_date {
+  color: #000;
+  font-size: 12px;
+  width: 500px;
+  margin: auto;
+  padding: 15px 0 0 60px;
+  line-height: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031065}}
+main .sec03 .sec03_main .progress_bar {
+  position: relative;
+  width: 689px;
+  height: 55px;
+  margin: 40px 0px 0px 220px;
+  background: url(http://alpha-images.hange.jp/r02/event/2019/1202_one/spr-s089ac93db8.png ) no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031072}}
+main .sec03 .sec03_main .progress_bar img {
+  position: absolute;
+  width: 58px;
+  height: 88px;
+  top: -35px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031080}}
+main .sec03 .sec03_main .vehicle1 {
+  background-position: -45px -32px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031083}}
+main .sec03 .sec03_main .vehicle1 img {
+  left: -2%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031088}}
+main .sec03 .sec03_main .vehicle2 {
+  background-position: -833px -32px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031091}}
+main .sec03 .sec03_main .vehicle2 img {
+  left: 18%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031096}}
+main .sec03 .sec03_main .vehicle3 {
+  background-position: -1621px -32px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031099}}
+main .sec03 .sec03_main .vehicle3 img {
+  left: 38%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031104}}
+main .sec03 .sec03_main .vehicle4 {
+  background-position: -2409px -32px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031107}}
+main .sec03 .sec03_main .vehicle4 img {
+  left: 57%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031112}}
+main .sec03 .sec03_main .vehicle5 {
+  background-position: -3197px -32px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031115}}
+main .sec03 .sec03_main .vehicle5 img {
+  top: -29px;
+  left: 75%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031121}}
+main .sec03 .sec03_main .vehicle6 {
+  background-position: -3985px -32px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031124}}
+main .sec03 .sec03_main .vehicle6 img {
+  left: 94%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031129}}
+main .sec03 .sec03_main .free_present {
+  width: 960px;
+  height: 262px;
+  margin: 0px auto;
+  padding-left: 29px;
+  padding-top: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031136}}
+main .sec03 .sec03_main .free_present li {
+  float: left;
+  width: 114px;
+  margin-left: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031141}}
+main .sec03 .sec03_main .free_present li span {
+  display: block;
+  height: 13px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031145}}
+main .sec03 .sec03_main .free_present li span img {
+  width: 113px;
+  margin: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031151}}
+main .sec03 .sec03_main .free_present li .buy_yen_img {
+  margin: auto;
+  width: 114px;
+  padding-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031157}}
+main .sec03 .sec03_main .free_present li p {
+  padding-top: 6px;
+  color: #000;
+  font-size: 11px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  height: 28px;
+  width: 114px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031168}}
+main .sec03 .sec03_main .free_present li .receive_on {
+  margin: 7px auto 0;
+  width: 102px;
+  height: 25px;
+  display: block;
+  background-image: url('../img/spr-s5318b651cf.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 102px;
+  height: 25px;
+  background-position: 0 -1503px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031175}}
+main .sec03 .sec03_main .free_present li .receive_on:hover {
+  background-image: url('../img/spr-s5318b651cf.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 102px;
+  height: 25px;
+  background-position: 0 -1553px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031180}}
+main .sec03 .sec03_main .free_present li .receive_off {
+  margin: 7px auto 0;
+  width: 102px;
+  height: 25px;
+  display: block;
+  background-image: url('../img/spr-s5318b651cf.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 102px;
+  height: 25px;
+  background-position: 0 -1528px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031189}}
+main .sec03 .sec03_main .free_present li:first-child {
+  margin-left: 0px;
+  margin-right: 23px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031197}}
+main .sec04 {
+  width: 100%;
+  height: 320px;
+  background: #fff;
+  padding-top: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031203}}
+main .sec04 .footer_img {
+  width: 960px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031207}}
+main .sec04 .footer_img li {
+  float: left;
+  width: 302px;
+  height: 98px;
+  margin-right: 27px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031214}}
+main .sec04 .footer_img li:last-child {
+  margin-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031219}}
+main .sec04 .footer_text {
+  width: 960px;
+  margin: 0 auto;
+  padding: 48px 0 60px;
+  color: #000;
+  line-height: 18px;
+  font-size: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031227}}
+main .sec04 .footer_text a {
+  color: #000;
+  text-decoration: underline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031235}}
+.popup {
+  position: fixed;
+  display: none;
+  overflow: auto;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  z-index: 1000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031245}}
+.popup .pop {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031254}}
+.popup .close {
+  width: 22px;
+  height: 22px;
+  font-size: 0px;
+  font-size: 0;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031263}}
+.popup .close a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031270}}
+.popup .popup_one {
+  width: 498px;
+  height: 499px;
+  margin: -250px 0 0 -249px;
+  background: url(//alpha-images.hange.jp/r02/event/2019/1202_one/bg_popup00.png?1571707478) no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031276}}
+.popup .popup_one p {
+  position: absolute;
+  font-size: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031280}}
+.popup .popup_one p a {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031285}}
+.popup .popup_one .num {
+  width: 50px;
+  height: 36px;
+  top: 364px;
+  left: 103px;
+  background: url(//alpha-images.hange.jp/r02/event/2019/1202_one/bg_num.png?1571707484) no-repeat center top;
+  color: #010100;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  padding: 0 23px 0 40px;
+  line-height: 38px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031300}}
+.popup .popup_one .good_time {
+  top: 363px;
+  left: 231px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031304}}
+.popup .popup_one .good_time a {
+  background-image: url('../img/spr-s5318b651cf.png');
+  background-repeat: no-repeat;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+  width: 166px;
+  height: 41px;
+  background-position: 0 -347px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031310}}
+.popup .popup_two {
+  width: 800px;
+  height: 610px;
+  margin: -305px 0 0 -400px;
+  background: url('../img/popup_two.png?1574405514') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031316}}
+.popup .popup_two .close_two {
+  top: 10px;
+  right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031322}}
+.popup .popup_three {
+  width: 600px;
+  height: 800px;
+  margin: -400px 0 0 -300px;
+  background: url('../img/popup_three.png?1574406075') no-repeat center top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/svn-dev\/ncp\/avatars_ondec\/sass\/main\.v01\.scss}line{font-family:\000031329}}
+.popup .popup_four {
+  width: 600px;
+  height: 610px;
+  margin: -305px 0 0 -300px;
+  background: url('../img/popup_four.png?1574406765') no-repeat center top;
+}
+
+/* 以下は必要に応じて
+header, footer, section, h1, h2, h3, h4, h5, h6, div, p, th, td, dl, dt, dd, ul, ol, li, a, span {
+  box-sizing: border-box;
+}
+
+a:focus, *:focus { outline:none; }
+*/
